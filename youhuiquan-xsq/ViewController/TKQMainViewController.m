@@ -6,7 +6,7 @@
 //  Copyright © 2017年 zyk. All rights reserved.
 //
 
-#import "TKMainViewController.h"
+#import "TKQMainViewController.h"
 #import "TKMainCell.h"
 #import "TaokeNetWork.h" 
 #import "TKQDefaultViewController.h"
@@ -19,7 +19,7 @@
 #import "TKFilterCollectionHeaderView.h"
 static CGFloat kButtonBackgroundShowAlpha = 0.6f;
 
-@interface TKMainViewController ()
+@interface TKQMainViewController ()
 @property(nonatomic,retain) NSMutableArray *arrayResult;
 @property(nonatomic,retain) NSMutableArray *arrFilterProjectNames;
 //@property (weak, nonatomic) IBOutlet UICollectionView *conllectionView;
@@ -44,7 +44,7 @@ static CGFloat kButtonBackgroundShowAlpha = 0.6f;
 @property (assign, nonatomic)int page;
 @end
 
-@implementation TKMainViewController
+@implementation TKQMainViewController
 - (UIButton *)btnBackground
 {
     if (!_btnBackground) {
@@ -366,7 +366,7 @@ static CGFloat kButtonBackgroundShowAlpha = 0.6f;
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row==0) {
-        return 100;
+        return 200;
     }
     return 95;
 }

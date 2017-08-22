@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h> 
-@interface TKMainViewController : UIViewController
+@interface TKQMainViewController : UIViewController
 //  Created by sadmllvaaw on 2017/5/31.
 
 @end

@@ -128,8 +128,8 @@
 		1846DBF51F4C5A5800CFD18C /* TKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846DB9A1F4C5A5800CFD18C /* TKBaseViewController.m */; };
 		1846DBF61F4C5A5800CFD18C /* TKQDefaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846DB9C1F4C5A5800CFD18C /* TKQDefaultViewController.m */; };
 		1846DBF71F4C5A5800CFD18C /* TKQDefaultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1846DB9D1F4C5A5800CFD18C /* TKQDefaultViewController.xib */; };
-		1846DBF81F4C5A5800CFD18C /* TKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846DB9F1F4C5A5800CFD18C /* TKMainViewController.m */; };
-		1846DBF91F4C5A5800CFD18C /* TKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1846DBA01F4C5A5800CFD18C /* TKMainViewController.xib */; };
+		1846DBF81F4C5A5800CFD18C /* TKQMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846DB9F1F4C5A5800CFD18C /* TKQMainViewController.m */; };
+		1846DBF91F4C5A5800CFD18C /* TKQMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1846DBA01F4C5A5800CFD18C /* TKQMainViewController.xib */; };
 		1846DBFA1F4C5A5800CFD18C /* TKQRPListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846DBA21F4C5A5800CFD18C /* TKQRPListViewController.m */; };
 		1846DBFB1F4C5A5800CFD18C /* TKQRPListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1846DBA31F4C5A5800CFD18C /* TKQRPListViewController.xib */; };
 		1846DBFC1F4C5A5800CFD18C /* TKQWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846DBA51F4C5A5800CFD18C /* TKQWebViewController.m */; };
@@ -340,9 +340,9 @@
 		1846DB9B1F4C5A5800CFD18C /* TKQDefaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKQDefaultViewController.h; sourceTree = "<group>"; };
 		1846DB9C1F4C5A5800CFD18C /* TKQDefaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKQDefaultViewController.m; sourceTree = "<group>"; };
 		1846DB9D1F4C5A5800CFD18C /* TKQDefaultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKQDefaultViewController.xib; sourceTree = "<group>"; };
-		1846DB9E1F4C5A5800CFD18C /* TKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMainViewController.h; sourceTree = "<group>"; };
-		1846DB9F1F4C5A5800CFD18C /* TKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMainViewController.m; sourceTree = "<group>"; };
-		1846DBA01F4C5A5800CFD18C /* TKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKMainViewController.xib; sourceTree = "<group>"; };
+		1846DB9E1F4C5A5800CFD18C /* TKQMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKQMainViewController.h; sourceTree = "<group>"; };
+		1846DB9F1F4C5A5800CFD18C /* TKQMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKQMainViewController.m; sourceTree = "<group>"; };
+		1846DBA01F4C5A5800CFD18C /* TKQMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKQMainViewController.xib; sourceTree = "<group>"; };
 		1846DBA11F4C5A5800CFD18C /* TKQRPListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKQRPListViewController.h; sourceTree = "<group>"; };
 		1846DBA21F4C5A5800CFD18C /* TKQRPListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKQRPListViewController.m; sourceTree = "<group>"; };
 		1846DBA31F4C5A5800CFD18C /* TKQRPListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKQRPListViewController.xib; sourceTree = "<group>"; };
@@ -812,9 +812,9 @@
 				1846DB9B1F4C5A5800CFD18C /* TKQDefaultViewController.h */,
 				1846DB9C1F4C5A5800CFD18C /* TKQDefaultViewController.m */,
 				1846DB9D1F4C5A5800CFD18C /* TKQDefaultViewController.xib */,
-				1846DB9E1F4C5A5800CFD18C /* TKMainViewController.h */,
-				1846DB9F1F4C5A5800CFD18C /* TKMainViewController.m */,
-				1846DBA01F4C5A5800CFD18C /* TKMainViewController.xib */,
+				1846DB9E1F4C5A5800CFD18C /* TKQMainViewController.h */,
+				1846DB9F1F4C5A5800CFD18C /* TKQMainViewController.m */,
+				1846DBA01F4C5A5800CFD18C /* TKQMainViewController.xib */,
 				1846DBA11F4C5A5800CFD18C /* TKQRPListViewController.h */,
 				1846DBA21F4C5A5800CFD18C /* TKQRPListViewController.m */,
 				1846DBA31F4C5A5800CFD18C /* TKQRPListViewController.xib */,
@@ -888,7 +888,7 @@
 				1846DBAF1F4C5A5800CFD18C /* TKRedPackgeCell.xib in Resources */,
 				1846DC011F4C5CEF00CFD18C /* Images.xcassets in Resources */,
 				1846DBDE1F4C5A5800CFD18C /* MJRefresh.bundle in Resources */,
-				1846DBF91F4C5A5800CFD18C /* TKMainViewController.xib in Resources */,
+				1846DBF91F4C5A5800CFD18C /* TKQMainViewController.xib in Resources */,
 				1846DBFB1F4C5A5800CFD18C /* TKQRPListViewController.xib in Resources */,
 				1846DAE91F4C5A4500CFD18C /* NBResource.bundle in Resources */,
 				1846DBB51F4C5A5800CFD18C /* imglogo6.jpg in Resources */,
@@ -956,7 +956,7 @@
 				1846DBED1F4C5A5800CFD18C /* UIImageView+AFNetworking.m in Sources */,
 				1846DBCA1F4C5A5800CFD18C /* MASViewConstraint.m in Sources */,
 				1846DBDA1F4C5A5800CFD18C /* MJRefreshBackStateFooter.m in Sources */,
-				1846DBF81F4C5A5800CFD18C /* TKMainViewController.m in Sources */,
+				1846DBF81F4C5A5800CFD18C /* TKQMainViewController.m in Sources */,
 				1846DBF51F4C5A5800CFD18C /* TKBaseViewController.m in Sources */,
 				1846DBC51F4C5A5800CFD18C /* MASCompositeConstraint.m in Sources */,
 				1846DBDB1F4C5A5800CFD18C /* MJRefreshGifHeader.m in Sources */,
