@@ -309,15 +309,16 @@ static CGFloat kButtonBackgroundShowAlpha = 0.6f;
 }
 //  Created by sadmllvaaw on 2017/5/31.
 
-
-- (IBAction)didGotoTwo:(id)sender{
+//聚划算
+- (IBAction)didGotojuhuasuan:(id)sender{
     TKQRPListViewController *rpView = [TKQRPListViewController new];
     rpView.url = @"https://www.58sucai.com/search.php?pname=where&aname=isjhs&pid=1&isjhs=1&json=1";
     rpView.needPage = YES;
     [self.navigationController pushViewController:rpView animated:YES];
 }
 #pragma mark - action
-- (IBAction)didGotoOne:(id)sender{
+//小编推荐
+- (IBAction)didGotoxiaobian:(id)sender{
     TKQRPListViewController *rpView = [TKQRPListViewController new];
     rpView.url = @"https://www.58sucai.com/search.php?pname=between&aname=submit&commission_rates%5B0%5D=40&commission_rates%5B1%5D=0&json=1";
     rpView.needPage = YES;
@@ -327,8 +328,8 @@ static CGFloat kButtonBackgroundShowAlpha = 0.6f;
 }
 
 
-
-- (IBAction)didGotoThree:(id)sender{
+//海外
+- (IBAction)didGotohaiwai:(id)sender{
     TKQRPListViewController *rpView = [TKQRPListViewController new];
     rpView.url = @"https://www.58sucai.com/search.php?pname=where&aname=ishaiwai&ishaiwai=1&json=1";
     rpView.needPage = YES;
@@ -343,6 +344,7 @@ static CGFloat kButtonBackgroundShowAlpha = 0.6f;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+//9.9
 
 - (IBAction)didGotoNine:(id)sender{
     TKQRPListViewController *rpView = [TKQRPListViewController new];
